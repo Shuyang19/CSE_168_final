@@ -12,7 +12,9 @@ In the final project for CSE 168, we plan to do a photon mapping to achieve rend
 [Image Reference](https://developer.nvidia.com/gpugems/gpugems/part-i-natural-effects/chapter-2-rendering-water-caustics)
 
 Our "hero" image is the water caustic render image
+
 ![Image](heroImage.jpg)
+
 [Image Reference](https://graphics.stanford.edu/courses/cs348b-00/course8.pdf)
 
 
