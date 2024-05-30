@@ -2,7 +2,6 @@
 ## Photon Mapping
 Shuyang Zhang & Yaran Yang
 
-
 In the final project for CSE 168, we plan to do a photon mapping to achieve rendering under water. Photon Mapping is a global illumination technique that could render some scene with Caustic Phenomenon, for example, the light streak on the bottom of the water.
 
 - Example of water caustics:
@@ -16,8 +15,6 @@ Our "hero" image is the water caustic render image
 ![Image](heroImage.jpg)
 
 [Image Reference](https://graphics.stanford.edu/courses/cs348b-00/course8.pdf)
-
-
 
 ## Steps 
 
@@ -44,10 +41,11 @@ Our "hero" image is the water caustic render image
     - Excluding the global photon mapping contains only one diffuse reflection of the photon, use the path tracer as we have implemented before in previous assignment as direct lighting. 
 
 ## What we have done 
-- Find the way to transfer the .obj file to .test file.
+- Find the way to transfer the .obj file to .test file. Below is the coral iamge that we transfer it from .obj file to the .test file, we might use this object in our final scene. Also a stanford bunny for initial attempts.  
+  - ![Image](coral.png)
+  - ![Image](bunny.png)
 - Generate photon information(Sampling photon)
 - Wrote the function of the reflection and refraction of photons.
-
 
 ## Next step we will do
 - Modified the BRDF formula so that it would be based on the power of photons
@@ -55,4 +53,3 @@ Our "hero" image is the water caustic render image
 
 ## Note
 In order to produce an image (even a really simple one), the building of kd-tree is needed, which requires a lot of work and time consuming, which we are unable to complete before the ddl of the milestone.  But we do try our best and start working. TAT
-
