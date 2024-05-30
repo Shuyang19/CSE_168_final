@@ -42,8 +42,8 @@ Our "hero" image is the water caustic render image
 
 ## What we have done 
 - Find the way to transfer the .obj file to .test file. Below is the coral iamge that we transfer it from .obj file to the .test file, we might use this object in our final scene. Also a stanford bunny for initial attempts.  
-  - ![Image](coral.png)
-  - ![Image](bunny.png)
+  - <img src="coral.png" alt="coral" width="200" height="200">
+  - <img src="bunny.png" alt="bunny" width="200" height="200">
 - Generate photon information(Sampling photon)
 - Wrote the function of the reflection and refraction of photons.
 
